@@ -3,8 +3,7 @@ platform: linux
 image_resource:
   type: docker-image
   source:
-    repository: ruby
-    tag: 2.4.1
+    repository: busybox
 
 inputs:
 - name: flight-school
